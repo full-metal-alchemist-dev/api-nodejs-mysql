@@ -5,7 +5,7 @@ app.set('port', process.env.PORT || 9000)
 
 // routes -------------------------------------------
 app.get('/',(req,res)=>{
-    res.send('Bienvenido a mi api, by Danilo.')
+    res.send('Bienvenido a mi API, by Danilo.')
 })
 
 // server running -----------------------------------
